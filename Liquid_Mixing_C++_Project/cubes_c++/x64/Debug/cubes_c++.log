@@ -1,4 +1,0 @@
-﻿  TCup.cpp
-C:\Users\Igor\source\repos\cubes_c++\cubes_c++\TCup.cpp(123,12): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
-C:\Users\Igor\source\repos\cubes_c++\cubes_c++\TCup.cpp(128,11): warning C4267: "return": konwersja z "size_t" do "int", możliwa utrata danych
-  cubes_c++.vcxproj -> C:\Users\Igor\source\repos\cubes_c++\x64\Debug\cubes_c++.exe
