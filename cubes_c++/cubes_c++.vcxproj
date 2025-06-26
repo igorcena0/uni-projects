@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{54fe8df7-7fa7-4432-afd2-d186be59f026}</ProjectGuid>
+    <ProjectGuid>{d1fc5dc0-1458-47e2-91f1-70172aff0f7e}</ProjectGuid>
     <RootNamespace>cubesc</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -127,13 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="TCup.h" />
-    <ClInclude Include="TSubstance.h" />
+    <ClCompile Include="..\..\..\..\source\repos\cubes_c++\cubes_c++\kubki.cpp" />
+    <ClCompile Include="..\..\..\..\source\repos\cubes_c++\cubes_c++\TCup.cpp" />
+    <ClCompile Include="..\..\..\..\source\repos\cubes_c++\cubes_c++\Tsubstance.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="kubki.cpp" />
-    <ClCompile Include="TCup.cpp" />
-    <ClCompile Include="Tsubstance.cpp" />
+    <ClInclude Include="..\..\..\..\source\repos\cubes_c++\cubes_c++\TCup.h" />
+    <ClInclude Include="..\..\..\..\source\repos\cubes_c++\cubes_c++\TSubstance.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
