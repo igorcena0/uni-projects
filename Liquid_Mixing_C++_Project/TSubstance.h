@@ -10,7 +10,7 @@ class TSubstance
 public:
 	TSubstance(std::string name, double ro);
 
-	std::string get_name();
+	std::string get_name() const;
 	double		get_ro();
 };
 

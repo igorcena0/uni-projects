@@ -6,16 +6,17 @@ using namespace std;
 
 int main()
 {
-	cout << "Hello world!\n";
-
-	TCup kubek1;
-	kubek1.add(substancje[0], 73);
-	kubek1.add(substancje[2], 53);
-	kubek1.add(substancje[1], 162);
-	kubek1.add("kwas", 1);
-	kubek1.add("woda", 54);
-	kubek1.add("mleko", 27);
+	TCup kubek1, kubek2;
+	kubek1.add("woda", 100);
+	kubek1.add("mleko", 50);
+	kubek1.add(substancje[1], 100);
+	kubek1.add("krew", 50);
 	kubek1.show();
-	kubek1.add_vol("woda", 40);
-	kubek1.add_vol("mleko", 40);
+	kubek1.add_vol(substancje[0], 99);
+	kubek2.add(substancje[2], 125);
+	kubek2.add("woda", 30);
+	kubek2.show();
+	kubek1.merge(kubek2);
+	kubek1.show();
+	kubek2.show();
 }

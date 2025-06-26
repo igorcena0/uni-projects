@@ -7,7 +7,7 @@ TSubstance::TSubstance(string name, double ro)
 	this->ro = ro;
 }
 
-string TSubstance::get_name()
+string TSubstance::get_name() const
 {
 	return name;
 }
