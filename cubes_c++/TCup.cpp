@@ -56,7 +56,7 @@ void TCup::add_vol(TSubstance substance, double wanted_vol_coe)
 		cout << "\nKubek jest pusty. Dodaj substancje przed proba zmiany jej udzialu objetosciowego.\n" << endl;
 		return;
 	}
-	
+
 	std::string name = substance.get_name();
 	int _id1 = check(name);
 
@@ -153,7 +153,7 @@ void TCup::add_vol(std::string name, double wanted_vol_coe)
 		return;
 	}
 
-	if (wanted_vol_coe == 100 && count>1)
+	if (wanted_vol_coe == 100 && count > 1)
 	{
 		cout << "\nW kubku znajduje sie wiecej niz jedna substancja, co uniemozliwia nadania 100% udzialu objetosciowego substancji\n" << endl;
 		return;
@@ -198,7 +198,7 @@ void TCup::add_vol(std::string name, double wanted_vol_coe)
 		volumes[_id1] += required_volume;
 		TCup::show();
 	}
-	}
+}
 
 void TCup::add_mass(TSubstance substance, double wanted_mass_coe)
 {
@@ -218,7 +218,7 @@ void TCup::add_mass(TSubstance substance, double wanted_mass_coe)
 	{
 		cout << "\nSubstancji " << name << " nie ma obecnie w kubku. Dolewam ja do kubka.\n" << endl;
 		this->add(substance, 0.001);
-		_id1 = check(name); 
+		_id1 = check(name);
 	}
 
 	size_t count = substances.size();
@@ -419,7 +419,7 @@ void TCup::show()
 		double volume_coe = (volumes[i] / volume_sum) * 100;
 		double mass_coe = (mass / mass_sum) * 100;
 
-		cout << i+1 << ". " << substances[i].get_name() << " -"
+		cout << i + 1 << ". " << substances[i].get_name() << " -"
 			<< " volume: " << volumes[i] * 1e6 << "ml;"
 			<< " mass: " << mass << "g;"
 			<< " volume coe: " << volume_coe << "%;"
@@ -444,12 +444,12 @@ void TCup::merge(TCup& other)
 		{
 			substances.push_back(substance);
 			volumes.push_back(volume);
-			
+
 		}
 		else
 		{
 			volumes[existingIndex] += volume;
-			
+
 		}
 	}
 	other.substances.clear();

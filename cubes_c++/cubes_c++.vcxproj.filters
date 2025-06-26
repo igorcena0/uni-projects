@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\source\repos\cubes_c++\cubes_c++\TCup.cpp">
+    <ClCompile Include="kubki.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\source\repos\cubes_c++\cubes_c++\Tsubstance.cpp">
+    <ClCompile Include="TCup.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\source\repos\cubes_c++\cubes_c++\kubki.cpp">
+    <ClCompile Include="TSubstance.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\source\repos\cubes_c++\cubes_c++\TCup.h">
+    <ClInclude Include="TCup.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\source\repos\cubes_c++\cubes_c++\TSubstance.h">
+    <ClInclude Include="TSubstance.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>

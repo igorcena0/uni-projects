@@ -127,13 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\source\repos\cubes_c++\cubes_c++\kubki.cpp" />
-    <ClCompile Include="..\..\..\..\source\repos\cubes_c++\cubes_c++\TCup.cpp" />
-    <ClCompile Include="..\..\..\..\source\repos\cubes_c++\cubes_c++\Tsubstance.cpp" />
+    <ClCompile Include="kubki.cpp" />
+    <ClCompile Include="TCup.cpp" />
+    <ClCompile Include="TSubstance.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\source\repos\cubes_c++\cubes_c++\TCup.h" />
-    <ClInclude Include="..\..\..\..\source\repos\cubes_c++\cubes_c++\TSubstance.h" />
+    <ClInclude Include="TCup.h" />
+    <ClInclude Include="TSubstance.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
